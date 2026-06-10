@@ -7,41 +7,132 @@ export default function Store() {
   const products = [
     {
       id: 1,
-      title: t("store_prod_1_title"),
-      category: t("store_prod_1_cat"),
-      description: t("store_prod_1_desc"),
-      price: "Buy WITH TOKEN",
-      type: t("store_type_premium"),
-      demoUrl: "https://github.com",
+      title: "KomikFORGE",
+      category: "AI Application",
+      description: "AI-powered web manga and comic creator. Merancang dan membuat komik AI digital, mudah dan cepat.",
+      price: "$ 159",
+      type: "AI_STUDIO",
+      demoUrl: "https://ai.studio/apps/7001f20f-8be5-487f-97f2-78009e7dee61",
     },
     {
       id: 2,
-      title: t("store_prod_2_title"),
-      category: t("store_prod_2_cat"),
-      description: t("store_prod_2_desc"),
-      price: t("store_type_trial") === "Trial" ? "Free" : "Gratis",
-      type: t("store_type_trial"),
-      demoUrl: "https://github.com",
+      title: "NARRATA",
+      category: "AI Application",
+      description: "Konversi file mp4 yang kamu lihat menjadi karya literal, Cerpen, Novel, Makalah, Artikel, Esay, Naskah pidato, Script narasi dan sebagainya.",
+      price: "$ 149",
+      type: "AI_STUDIO",
+      demoUrl: "https://ai.studio/apps/25c5b2f9-153c-4f71-8571-f4def14f17d5",
     },
     {
       id: 3,
-      title: t("store_prod_3_title"),
-      category: t("store_prod_3_cat"),
-      description: t("store_prod_3_desc"),
-      price: "$89",
-      type: t("store_type_premium"),
-      demoUrl: "https://github.com",
+      title: "CONAN AI",
+      category: "AI Application",
+      description: "Buat video iklan untuk media digital apapun, semudah menulis surat, cepat, konsisten dan nol kesalahan. \"CONAN AI Video art spectacular\".",
+      price: "Pengembangan",
+      type: "AI_STUDIO",
+      demoUrl: "https://ai.studio/apps/0049edff-f6ff-4d54-8002-246eaeb1651e",
     },
     {
       id: 4,
-      title: t("store_prod_4_title"),
-      category: t("store_prod_4_cat"),
-      description: t("store_prod_4_desc"),
-      price: "$49",
-      type: t("store_type_premium"),
-      demoUrl: "https://github.com",
+      title: "UNILETTER",
+      category: "AI Application",
+      description: "Buat semua karya tulis hanya pada satu tempat, mudah, cepat. Cerpen, Novel, Makalah, Artikel, Esay, Naskah pidato, Script narasi dan sebagainya.",
+      price: "$ 149",
+      type: "AI_STUDIO",
+      demoUrl: "https://ai.studio/apps/7d8b7122-3b66-4c0f-a769-71ae96cdc351",
     },
+    {
+      id: 5,
+      title: "AEROCORE PRO",
+      category: "AI Application",
+      description: "Sistem otomasi pembuat video iklan impresif Human Caracter Realisme Kualitas \"waoww\".",
+      price: "$ 665",
+      type: "AI_STUDIO",
+      demoUrl: "https://ai.studio/apps/79f92ef2-52f3-42f1-a656-d1b841c8bb96",
+    },
+    {
+      id: 6,
+      title: "OMNILITE PRO",
+      category: "AI Application",
+      description: "E-commerce Enterprise Operational Engine & Command Center, Dashboard asisten pengawas AI marketplace tersentralisasi. Awasi semua tokomu dalam satu kendali terstruktur.",
+      price: "Pengembangan",
+      type: "AI_STUDIO",
+      demoUrl: "https://ai.studio/apps/b899b3dc-7765-4980-b0f4-b3f75b1c06fa",
+    },
+    {
+      id: 7,
+      title: "AUTOMASI VIDEO AI",
+      category: "AI Application",
+      description: "Buat video youtube apapun dengan otomatis.... Otomatis buat video AI apapun dengan sempurna.",
+      price: "Pengembangan",
+      type: "AI_STUDIO",
+      demoUrl: "https://ai.studio/apps/b7030351-9950-4e33-9fe8-fb8e75f24abd",
+    },
+    {
+      id: 8,
+      title: "CAFE MANAGED",
+      category: "AI Application",
+      description: "Aplikasi manajemen dan pemesanan online untuk Cafe, Restoran dan kuliner Street food berbasis pemindaian QR. \"Hindari kerugian, lipat gandakan keuntungan, undang pembeli jauh\".",
+      price: "$ 162",
+      type: "AI_STUDIO",
+      demoUrl: "https://ai.studio/apps/57e3324a-bfcb-47c2-88cb-97fc52870794",
+    },
+    {
+      id: 9,
+      title: "MORPHSWAP",
+      category: "AI Application",
+      description: "Enterprise-grade face swap and pan/zoom synthesis engine",
+      price: "$ 189",
+      type: "AI_STUDIO",
+      demoUrl: "https://ai.studio/apps/3a0f8e02-859b-4eec-84d6-94aef516351f",
+    }
   ];
+
+  const getProductShowcase = (id: number) => {
+    let imageSrc = "";
+    switch (id) {
+      case 1:
+        imageSrc = "/src/assets/images/komikforge_dashboard_1781099432444.png";
+        break;
+      case 2:
+        imageSrc = "/src/assets/images/narrata_dashboard_1781099447281.png";
+        break;
+      case 3:
+        imageSrc = "/src/assets/images/conan_ai_dashboard_1781099463918.png";
+        break;
+      case 4:
+        imageSrc = "/src/assets/images/uniletter_dashboard_1781099479066.png";
+        break;
+      case 5:
+        imageSrc = "/src/assets/images/aerocore_pro_dashboard_1781099495478.png";
+        break;
+      case 6:
+        imageSrc = "/src/assets/images/omnilite_pro_dashboard_1781099511702.png";
+        break;
+      case 7:
+        imageSrc = "/src/assets/images/auto_video_ai_dashboard_1781099524756.png";
+        break;
+      case 8:
+        imageSrc = "/src/assets/images/cafe_managed_dashboard_1781099538790.png";
+        break;
+      case 9:
+        imageSrc = "/src/assets/images/morphswap_dashboard_1781099555540.png";
+        break;
+      default:
+        imageSrc = "/src/assets/images/ai_studio_dashboard_showcase_1781061060914.png";
+    }
+
+    return (
+      <div className="w-full h-full relative group-hover:scale-[1.05] transition-transform duration-700 p-8 flex items-center justify-center">
+        <img
+          src={imageSrc}
+          alt={`Dashboard Showcase ${id}`}
+          className="max-w-full max-h-full object-contain rounded-lg shadow-2xl drop-shadow-[0_0_20px_rgba(226,182,70,0.15)]"
+          referrerPolicy="no-referrer"
+        />
+      </div>
+    );
+  };
 
   return (
     <section id="store" className="py-16 lg:py-24 relative z-10 bg-[#080808]">
@@ -108,21 +199,7 @@ export default function Store() {
                     </span>
                   </div>
                 )}
-                {product.id === 1 ? (
-                  /* Abstract UI Box for Logic Interface */
-                  <div className="w-24 h-32 bg-[#151515] border border-[#ffffff10] flex flex-col p-4 shadow-2xl text-left scale-[1.2] group-hover:scale-[1.25] transition-transform duration-700">
-                    <div className="w-full h-1 bg-[#ffffff10] mb-2"></div>
-                    <div className="w-2/3 h-1 bg-[#ffffff10] mb-5"></div>
-                    <div className="w-full h-0.5 bg-[#E2B64640] mb-1"></div>
-                    <div className="w-4/5 h-0.5 bg-[#E2B64640] mb-1"></div>
-                    <div className="w-full h-8 border border-[#ffffff10] mt-auto"></div>
-                  </div>
-                ) : (
-                  /* Abstract Circle for others */
-                  <div className="w-40 h-40 bg-gradient-to-tr from-[#1a1a1a] to-[#0a0a0a] border border-[#ffffff10] rounded-full flex items-center justify-center shadow-2xl relative group-hover:shadow-[0_0_40px_rgba(226,182,70,0.2)] transition-shadow duration-700">
-                    <div className="absolute inset-0 rounded-full border border-[#E2B64620] group-hover:scale-110 transition-transform duration-700 opacity-50 group-hover:opacity-100 group-hover:border-[#E2B64660]"></div>
-                  </div>
-                )}
+                {getProductShowcase(product.id)}
               </div>
 
               <div className="p-8 flex flex-col flex-grow relative z-10">
@@ -141,6 +218,22 @@ export default function Store() {
                     <>
                       <button className="font-mono text-[10px] uppercase tracking-[0.2em] bg-white text-black px-6 py-2.5 font-bold hover:bg-[#E2B646] hover:shadow-[0_0_15px_rgba(226,182,70,0.3)] transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#E2B646]">
                         {t("store_explore")}
+                      </button>
+                    </>
+                  ) : product.type === "AI_STUDIO" ? (
+                    <>
+                      {product.demoUrl && (
+                        <a
+                          href={product.demoUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="font-mono text-[10px] uppercase tracking-tighter border-b border-[#ffffff40] hover:border-[#E2B646] pb-1.5 hover:text-[#E2B646] transition-all focus-visible:outline-none focus-visible:text-[#E2B646] inline-block"
+                        >
+                          Open in AI Studio
+                        </a>
+                      )}
+                      <button className="font-mono text-[10px] uppercase tracking-[0.2em] bg-[#E2B646] text-black px-6 py-2.5 font-bold hover:bg-white hover:shadow-[0_0_15px_rgba(255,255,255,0.4)] transition-all duration-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white">
+                        {product.price}
                       </button>
                     </>
                   ) : (

@@ -108,6 +108,12 @@ const translations = {
     store_type_premium: "Premium",
     store_type_trial: "Uji Coba",
 
+    // Google AI Studio Applet
+    store_prod_5_title: "AI Studio Digital Toolkit",
+    store_prod_5_cat: "Aplikasi Web AI",
+    store_prod_5_desc:
+      "Perangkat kerja digital inovatif yang ditenagai oleh model AI canggih. Tingkatkan produktivitas Anda dan otomatisasikan alur kerja kompleks melalui aplikasi dasbor premium kami di Google AI Studio.",
+
     // Data archive
     archive_item_1_title: "Minimalisme Web Arsitektur",
     archive_item_1_cat: "Artikel",
@@ -275,6 +281,12 @@ const translations = {
       "Exclusive comprehensive application. Data format is available in a ZIP compressed package.",
     store_type_premium: "Premium",
     store_type_trial: "Trial",
+
+    // Google AI Studio Applet
+    store_prod_5_title: "AI Studio Digital Toolkit",
+    store_prod_5_cat: "AI Web Application",
+    store_prod_5_desc:
+      "A next-generation digital workspace powered by advanced AI models. Enhance your productivity and automate complex workflows with our premium dashboard application running on Google AI Studio.",
 
     // Data archive
     archive_item_1_title: "Minimalism in Web Architecture",
