@@ -1,6 +1,7 @@
 import { motion } from "motion/react";
 import { Send, Paperclip } from "lucide-react";
 import { useState, useRef } from "react";
+import React from "react";
 import { useLanguage } from "../contexts/LanguageContext";
 
 export default function Interactions() {

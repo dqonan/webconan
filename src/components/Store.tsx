@@ -1,6 +1,17 @@
 import { motion } from "motion/react";
 import { useLanguage } from "../contexts/LanguageContext";
 
+import img1 from "../assets/images/komikforge_dashboard_1781099432444.png";
+import img2 from "../assets/images/narrata_dashboard_1781099447281.png";
+import img3 from "../assets/images/conan_ai_dashboard_1781099463918.png";
+import img4 from "../assets/images/uniletter_dashboard_1781099479066.png";
+import img5 from "../assets/images/aerocore_pro_dashboard_1781099495478.png";
+import img6 from "../assets/images/omnilite_pro_dashboard_1781099511702.png";
+import img7 from "../assets/images/auto_video_ai_dashboard_1781099524756.png";
+import img8 from "../assets/images/cafe_managed_dashboard_1781099538790.png";
+import img9 from "../assets/images/morphswap_dashboard_1781099555540.png";
+import imgDefault from "../assets/images/ai_studio_dashboard_showcase_1781061060914.png";
+
 export default function Store() {
   const { t } = useLanguage();
 
@@ -92,34 +103,34 @@ export default function Store() {
     let imageSrc = "";
     switch (id) {
       case 1:
-        imageSrc = "/src/assets/images/komikforge_dashboard_1781099432444.png";
+        imageSrc = img1;
         break;
       case 2:
-        imageSrc = "/src/assets/images/narrata_dashboard_1781099447281.png";
+        imageSrc = img2;
         break;
       case 3:
-        imageSrc = "/src/assets/images/conan_ai_dashboard_1781099463918.png";
+        imageSrc = img3;
         break;
       case 4:
-        imageSrc = "/src/assets/images/uniletter_dashboard_1781099479066.png";
+        imageSrc = img4;
         break;
       case 5:
-        imageSrc = "/src/assets/images/aerocore_pro_dashboard_1781099495478.png";
+        imageSrc = img5;
         break;
       case 6:
-        imageSrc = "/src/assets/images/omnilite_pro_dashboard_1781099511702.png";
+        imageSrc = img6;
         break;
       case 7:
-        imageSrc = "/src/assets/images/auto_video_ai_dashboard_1781099524756.png";
+        imageSrc = img7;
         break;
       case 8:
-        imageSrc = "/src/assets/images/cafe_managed_dashboard_1781099538790.png";
+        imageSrc = img8;
         break;
       case 9:
-        imageSrc = "/src/assets/images/morphswap_dashboard_1781099555540.png";
+        imageSrc = img9;
         break;
       default:
-        imageSrc = "/src/assets/images/ai_studio_dashboard_showcase_1781061060914.png";
+        imageSrc = imgDefault;
     }
 
     return (
