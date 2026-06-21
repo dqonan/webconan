@@ -86,7 +86,7 @@ export default function Store() {
       description: "Aplikasi manajemen dan pemesanan online untuk Cafe, Restoran dan kuliner Street food berbasis pemindaian QR. \"Hindari kerugian, lipat gandakan keuntungan, undang pembeli jauh\".",
       price: "$ 162",
       type: "AI_STUDIO",
-      demoUrl: "https://ai.studio/apps/57e3324a-bfcb-47c2-88cb-97fc52870794",
+      demoUrl: "",
     },
     {
       id: 9,
