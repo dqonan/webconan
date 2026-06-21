@@ -23,7 +23,7 @@ export default function Store() {
       description: "AI-powered web manga and comic creator. Merancang dan membuat komik AI digital, mudah dan cepat.",
       price: "$ 159",
       type: "AI_STUDIO",
-      demoUrl: "https://ai.studio/apps/7001f20f-8be5-487f-97f2-78009e7dee61",
+      demoUrl: "https://ais-dev-zlamxb7o5phyvletycbhnh-140028740585.asia-southeast1.run.app",
     },
     {
       id: 2,
@@ -32,7 +32,7 @@ export default function Store() {
       description: "Konversi file mp4 yang kamu lihat menjadi karya literal, Cerpen, Novel, Makalah, Artikel, Esay, Naskah pidato, Script narasi dan sebagainya.",
       price: "$ 149",
       type: "AI_STUDIO",
-      demoUrl: "https://ai.studio/apps/25c5b2f9-153c-4f71-8571-f4def14f17d5",
+      demoUrl: "https://ais-dev-jgjacjoyggryadw7pmbqec-140028740585.asia-southeast1.run.app",
     },
     {
       id: 3,
@@ -41,16 +41,16 @@ export default function Store() {
       description: "Buat video iklan untuk media digital apapun, semudah menulis surat, cepat, konsisten dan nol kesalahan. \"CONAN AI Video art spectacular\".",
       price: "Pengembangan",
       type: "AI_STUDIO",
-      demoUrl: "https://ai.studio/apps/0049edff-f6ff-4d54-8002-246eaeb1651e",
+      demoUrl: "https://ais-dev-vyej2zjobvv7wqdbawml72-140028740585.asia-southeast1.run.app",
     },
     {
       id: 4,
-      title: "UNILETTER",
+      title: "AUTO PROMPTER",
       category: "AI Application",
-      description: "Buat semua karya tulis hanya pada satu tempat, mudah, cepat. Cerpen, Novel, Makalah, Artikel, Esay, Naskah pidato, Script narasi dan sebagainya.",
+      description: "Asisten pembuat prompt yang akan membantumu menulis perintah AI dengan lebih terstruktur dan efisien.",
       price: "$ 149",
       type: "AI_STUDIO",
-      demoUrl: "https://ai.studio/apps/7d8b7122-3b66-4c0f-a769-71ae96cdc351",
+      demoUrl: "https://ais-dev-7ckwdz6ci2y2sc2fquhojp-140028740585.asia-southeast1.run.app",
     },
     {
       id: 5,
@@ -59,7 +59,7 @@ export default function Store() {
       description: "Sistem otomasi pembuat video iklan impresif Human Caracter Realisme Kualitas \"waoww\".",
       price: "$ 665",
       type: "AI_STUDIO",
-      demoUrl: "https://ai.studio/apps/79f92ef2-52f3-42f1-a656-d1b841c8bb96",
+      demoUrl: "https://ais-dev-jpadyawqgibm4va572bl7e-140028740585.asia-southeast1.run.app",
     },
     {
       id: 6,
@@ -68,7 +68,7 @@ export default function Store() {
       description: "E-commerce Enterprise Operational Engine & Command Center, Dashboard asisten pengawas AI marketplace tersentralisasi. Awasi semua tokomu dalam satu kendali terstruktur.",
       price: "Pengembangan",
       type: "AI_STUDIO",
-      demoUrl: "https://ai.studio/apps/b899b3dc-7765-4980-b0f4-b3f75b1c06fa",
+      demoUrl: "https://ais-pre-iym2r2veuzloyrev3vg6vj-140028740585.asia-southeast1.run.app/",
     },
     {
       id: 7,
@@ -77,7 +77,7 @@ export default function Store() {
       description: "Buat video youtube apapun dengan otomatis.... Otomatis buat video AI apapun dengan sempurna.",
       price: "Pengembangan",
       type: "AI_STUDIO",
-      demoUrl: "https://ai.studio/apps/b7030351-9950-4e33-9fe8-fb8e75f24abd",
+      demoUrl: "https://ais-dev-p75ogd47wlxf7zw27mjunu-140028740585.asia-southeast1.run.app",
     },
     {
       id: 8,
@@ -90,12 +90,12 @@ export default function Store() {
     },
     {
       id: 9,
-      title: "MORPHSWAP",
+      title: "AI ADS AUTO",
       category: "AI Application",
-      description: "Enterprise-grade face swap and pan/zoom synthesis engine",
+      description: "Sistem otomasi pembuat iklan untuk kampanye produk atau jasamu.",
       price: "$ 189",
       type: "AI_STUDIO",
-      demoUrl: "https://ai.studio/apps/3a0f8e02-859b-4eec-84d6-94aef516351f",
+      demoUrl: "https://ais-dev-z5ga7s5owceqzh4zdp2zgn-266728176015.asia-east1.run.app",
     }
   ];
 
@@ -240,7 +240,7 @@ export default function Store() {
                           rel="noopener noreferrer"
                           className="font-mono text-[10px] uppercase tracking-tighter border-b border-[#ffffff40] hover:border-[#E2B646] pb-1.5 hover:text-[#E2B646] transition-all focus-visible:outline-none focus-visible:text-[#E2B646] inline-block"
                         >
-                          Open in AI Studio
+                          Buka Aplikasi
                         </a>
                       )}
                       <button className="font-mono text-[10px] uppercase tracking-[0.2em] bg-[#E2B646] text-black px-6 py-2.5 font-bold hover:bg-white hover:shadow-[0_0_15px_rgba(255,255,255,0.4)] transition-all duration-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white">
