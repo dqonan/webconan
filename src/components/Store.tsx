@@ -32,7 +32,7 @@ export default function Store() {
       description: "Konversi file mp4 yang kamu lihat menjadi karya literal, Cerpen, Novel, Makalah, Artikel, Esay, Naskah pidato, Script narasi dan sebagainya.",
       price: "$ 149",
       type: "AI_STUDIO",
-      demoUrl: "",
+      demoUrl: "https://narata-ai.netlify.app",
     },
     {
       id: 3,
@@ -59,7 +59,7 @@ export default function Store() {
       description: "Sistem otomasi pembuat video iklan impresif Human Caracter Realisme Kualitas \"waoww\".",
       price: "$ 665",
       type: "AI_STUDIO",
-      demoUrl: "",
+      demoUrl: "https://aerocor.netlify.app",
     },
     {
       id: 6,
@@ -68,7 +68,7 @@ export default function Store() {
       description: "E-commerce Enterprise Operational Engine & Command Center, Dashboard asisten pengawas AI marketplace tersentralisasi. Awasi semua tokomu dalam satu kendali terstruktur.",
       price: "Pengembangan",
       type: "AI_STUDIO",
-      demoUrl: "",
+      demoUrl: "https://omnilite.netlify.app",
     },
     {
       id: 7,
@@ -77,7 +77,7 @@ export default function Store() {
       description: "Buat video youtube apapun dengan otomatis.... Otomatis buat video AI apapun dengan sempurna.",
       price: "Pengembangan",
       type: "AI_STUDIO",
-      demoUrl: "",
+      demoUrl: "https://automasi.netlify.app",
     },
     {
       id: 8,
@@ -86,7 +86,7 @@ export default function Store() {
       description: "Aplikasi manajemen dan pemesanan online untuk Cafe, Restoran dan kuliner Street food berbasis pemindaian QR. \"Hindari kerugian, lipat gandakan keuntungan, undang pembeli jauh\".",
       price: "$ 162",
       type: "AI_STUDIO",
-      demoUrl: "",
+      demoUrl: "https://cape-resto.netlify.app",
     },
     {
       id: 9,
@@ -95,7 +95,7 @@ export default function Store() {
       description: "Enterprise-grade face swap and pan/zoom synthesis engine",
       price: "$ 189",
       type: "AI_STUDIO",
-      demoUrl: "",
+      demoUrl: "https://morphswap.netlify.app",
     },
     {
       id: 10,
@@ -131,7 +131,7 @@ export default function Store() {
       description: "Sistem aplikasi edukasi dan manajemen pembelajaran cerdas.",
       price: "Pengembangan",
       type: "AI_STUDIO",
-      demoUrl: "",
+      demoUrl: "https://preeminent-moxie-4e3c5b.netlify.app",
     },
     {
       id: 14,
